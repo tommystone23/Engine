@@ -21,6 +21,8 @@ public:
     glm::mat4 get_camera_matrix() const { return _camera_matrix; }
 
     glm::vec2 get_world_coords(glm::vec2 screen_coords);
+
+    bool is_in_view(const glm::vec2 &position, const glm::vec2 &dimensions);
 private:
     bool _position_changed;
     int _screen_width;
