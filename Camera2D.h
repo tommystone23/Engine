@@ -1,5 +1,5 @@
-#ifndef CAMERA2D
-#define CAMERA2D
+#ifndef CAMERA2D_H
+#define CAMERA2D_H
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 

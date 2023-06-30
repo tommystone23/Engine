@@ -7,3 +7,4 @@ Game framework to handle all non-game logic related tasks such as rendering and 
 - libopenal-dev
 - libglew2.0
 - libglew-dev
+- libfreetype
